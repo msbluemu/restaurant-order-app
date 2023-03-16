@@ -1,0 +1,189 @@
+body {
+    width: 600px;
+    height: 1161px;
+    margin: auto;
+    border: 1px solid black;
+    font-family: 'Smythe', cursive;
+} 
+
+ img{
+     width: 600px;
+     height: 167px;
+ }
+ 
+.menu{
+    width: 100%;
+    padding: 0 0 50px 0;
+    margin: 15px 0;
+}
+
+.cart{
+    width: 508px;
+    margin: auto;
+}
+
+.dish-pic{
+ font-size: 60px;
+ line-height: 0px;
+}
+
+.dish-inner {
+    display: flex;
+    justify-content: space-between;
+    width: 508px;
+    height: 180px;
+    border-bottom: 1px solid #DEDEDE;
+    margin: 40px;
+}
+
+.dish-detail{
+  line-height: 5px;
+  flex: 1;
+  margin-left: 20px;
+  margin-top: 10px;
+  align-self: auto;
+}
+
+.dish-name{
+    font-size: 28px;
+}
+
+.dish-ingredients{
+    font-size: 16px;
+    color: #8B8B8B;
+}
+
+.dish-price{
+    font-size: 20px;
+}
+
+.button{
+    border-radius: 100px;
+    border: 1px solid #DEDEDE;
+    width: 50px;
+    height: 50px;
+    margin: 40px;
+    background-color: white;
+}
+
+.cart-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5;
+    padding-left: 0;
+    margin-top: -40px;
+}
+
+#cart-heading{
+    font-size: 28px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.checkout{
+    width: 508px;
+    height: 200px;
+    margin: auto;
+}
+
+.check-detail{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.checkBtn button{
+    padding-top: -100px;
+    width: 508px;
+    height: 60px;
+    background-color: #16DB99;
+    border: #16DB99;
+    color: white;
+}
+
+.cart-name {
+    font-size: 28px;
+}
+
+.cart-price{
+    font-size: 20px;
+}
+
+.total-price-word{
+    font-size: 28px;
+}
+
+.total-price {
+    font-size: 20px;
+}
+
+.cart-name-remove {
+    display: flex;
+}
+
+.remove {
+  font-size: 10px;
+  color: #8B8B8B;
+  background-color: white;
+  border: white;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 542px;
+    width: 524px;
+    background-color: white;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-info input {
+  margin-bottom: 20px;
+  width: 475px;
+  height: 71px;
+}
+
+.card-detail{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pay {
+ display: block;
+ margin: 0 auto;
+ width: 475px;
+  height: 71px;
+  background-color: #16DB99;
+  border:#16DB99;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thankyou{
+   background-color:#ECFDF5 ;
+   font-size: 30px;
+   color: #065F46;
+   text-align: center;
+   width: 504px; 
+   height: 120px;
+   margin-left: 50px;
+   margin-top: -200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
